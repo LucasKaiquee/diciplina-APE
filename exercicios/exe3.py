@@ -1,4 +1,4 @@
 num1 = float(input("Digite um numero"))
 num2 = float(input("Digite um numero"))
 
-print(num1 + num2)
+print("A soma dos números é:",num1 + num2)
