@@ -8,5 +8,5 @@ valor_total = float(input("O valor total vendido foi:"))
 
 salario_final = SALARIO + (carros_vendidos * 200) + (valor_total * PORCENTAGEM)
 
-print(f"O salário de {nome} foi de {salario_final}")
+print(f"O salário de {nome} foi de {salario_final:.f}")
 
