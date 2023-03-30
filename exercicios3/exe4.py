@@ -3,7 +3,8 @@ sexo = input("DIgite seu sexo (M ou F)")
 
 if(sexo == "M"):
     print(f"Ola, Sr. {nome}!")
+elif(sexo == "F"):
+    print(f"Ola, Sra. {nome}!")
 else:
-    if(sexo == "F"):
-        print(f"Ola, Sra. {nome}!")
+    print("Sexo inválido: escolha M ou F")
     
