@@ -6,10 +6,13 @@ if(operador == "+"):
     print(num1 + num2)
 elif(operador == "-"):
     print(num1 - num2)
-elif(operador == "*"):
+elif(operador == "*" or operador == "x"):
     print(num1 * num2)
 elif(operador == "/"):
-    print(num1/num2)
+    if(num2 !=0):
+        print(num1/num2)
+    else:
+        print("Operação invalida")
 elif(operador == "%"):
     print(num1 % num2)
 else:
