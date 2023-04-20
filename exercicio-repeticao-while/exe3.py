@@ -1,7 +1,7 @@
 num = int(input("Digite o número:"))
 
 maior = 0
-menor = 0
+menor = 9999
 num = int(input("Digite um número:"))
 
 while num != 0:
