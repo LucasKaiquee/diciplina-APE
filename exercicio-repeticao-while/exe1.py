@@ -1,9 +1,9 @@
 contador = 0
 soma = 0
-num = int(input("Digite um número:"))
-while contador < 30:
+
+while contador < 4:
+    num = int(input("Digite um número:"))
     contador += 1
     soma += num
-    num = int(input("Digite um número:"))
 
 print(soma)
