@@ -16,5 +16,8 @@ print("")
 
 for i in range(n):
     for j in range(n):
+        m[i][j] = 0
+        print(f"{m[i][j]:4}", end="")
         if i == j:
             print(m[i][j], end=" ")
+        print("")

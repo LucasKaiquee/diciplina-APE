@@ -1,4 +1,4 @@
-nlinha = 3
+nlinha = 20
 ncoluna = 4
 media = media_geral = soma = cont = 0
 m = [[None]*ncoluna for i in range(nlinha)]
@@ -20,10 +20,10 @@ for i in range(nlinha):
     print("")
 
 for i in range(nlinha):
-    soma += m[i][ncoluna]
+    soma += m[i][ncoluna-1]
     media_geral = soma/nlinha
 
-    if m[i][ncoluna] > media_geral:
+    if m[i][ncoluna-1] > media_geral:
         cont += 1
 
-print(f"a media geral é: {media_geral}, {cont} alunos acima da média")
+print(f"a media geral é: {media_geral:.2f}, {cont} alunos acima da média")
