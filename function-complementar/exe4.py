@@ -34,6 +34,10 @@ matriz_2 = gera_matriz(l, c)
 
 print("Primeira matriz:")
 exibe(matriz_1)
+
+print("Segunda matriz:")
+exibe(matriz_2)
+
 print("Matriz somada:")
 matriz_soma = soma(matriz_1, matriz_2, l, c)
 print(exibe(matriz_soma))

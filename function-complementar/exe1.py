@@ -3,4 +3,4 @@ def vogal(v):
         return True 
     return False
 
-print(vogal('a'))
+print(vogal(input("Digite uma vogal")))
